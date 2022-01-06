@@ -1,6 +1,6 @@
 body
 		{
-			background-image: url(images/brick.jfif); background-size: 100%;
+			background-image: url(images/nude.jpg); background-size: 100%;
 		}
 		table, th, td, tr
 		{
@@ -14,15 +14,16 @@ body
 		}
 		th
 		{
-			background-color: darkgray;
+			background-color: darkolivegreen;
 		}
-		tr
+		tr:nth-child(even)
 		{
-			background-color: lightgray;
+			background-color: tan;
 		}
-		mark 
-		{ 
- 		 	background-color: darkgray;
-  			color: black;
-  			padding: 10px;
+
+		
+		h1 
+		{
+ 			color: white;
+			text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 		}
